@@ -130,27 +130,140 @@ line-height: 30px;
 }
 
 .feature_link1{
-    margin:0px 140px 0px 140px;
+    margin:0px 0px 0px 150px;
 
 }
 
 
 .feature_link2{
-    margin:0px 140px 0px 360px;
+    margin:0px 0px 0px 290px;
 
 }
 
 .feature_link3{
-    margin:0px 0px 0px 400px;
+    margin:0px 0px 0px 300px;
 
 }
 
 .website{
 
-    border-radius: 8px;
+border-radius: 8px;
 background: rgba(39, 39, 39, 0.05);
-margin: 20px 240px;
-min-height: 320px;
+margin: 0px 240px;
+min-height: 300px;
+padding: 0px 200px;
+display: flex;
+justify-content: space-between;
+align-items: center;
+
+}
+
+.website_text{
+
+color: rgba(39, 39, 39, 0.80);
+
+font-size: 24px;
+font-style: normal;
+font-weight: 600;
+line-height: 35px;
+
+}
+
+.website_image1{
+
+padding-left: 100px;
+}
+
+.website_image2{
+padding-left: 90px;
+}
+
+.website_image3{
+
+padding-left: 50px;
+}    
+
+.deal{
+    border-radius: 8px;
+    background: rgba(229, 84, 115, 0.05);
+    min-height: 620px;
+    margin-top: 150px;
+    padding: 0px 429px 0px 400px;
+    align-items: center;
+    display: flex;
+    justify-content: space-between;
+
+}
+
+.deal_title{
+color: #272727;
+font-size: 40px;
+font-style: normal;
+font-weight: 800;
+line-height: normal;
+padding-left: 50px;
+
+}
+
+.deal_redtitle{
+color: #E55473;
+font-size: 40px;
+font-style: normal;
+font-weight: 800;
+line-height: normal;
+}
+
+.deal_paragraph{
+
+color: rgba(39, 39, 39, 0.60);
+font-size: 18px;
+font-style: normal;
+font-weight: 400;
+line-height: 30px;
+text-align: center;
+}
+
+.deal_button{
+ margin-left: 250px;
+}
 
 
+.latestdeal{
+    margin: 100px 240px;
+
+
+
+}
+
+.latestdeal_image{
+
+    margin: 100px 0px;
+
+}
+
+.latestdeal_title{
+    color: #272727;
+    text-align: center;
+    font-size: 40px;
+    font-style: normal;
+    font-weight: 800;
+    line-height: normal;
+
+}
+
+.latestdeal_description{
+
+    color: rgba(39, 39, 39, 0.60);
+    text-align: center;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 30px;
+    padding: 0px 400px;
+    
+}
+
+.latestdeal_subscriber{
+
+    
 }
