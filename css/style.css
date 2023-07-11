@@ -1,9 +1,9 @@
 
-
+/* Global Styles */
 *{
     font-family: 'Lato', sans-serif;
 }
-
+/* Banner Section */
 .banner {
 background-color:rgba(229, 84, 115, 0.10) ;
 
@@ -56,12 +56,11 @@ padding: 50px 240px 0px 240px;
   }
 
 
+/* Feature Section */
 
   
 .feature{
     padding: 150px 240px 100px 240px;
-
-
 }
 
 .feature_title{
@@ -71,7 +70,6 @@ padding: 50px 240px 0px 240px;
     font-style: normal;
     font-weight: 800;
     line-height: normal;
-
 }
 
 .feature_description{
@@ -120,29 +118,24 @@ line-height: 30px;
     font-weight: 700;
     line-height: 35px;
     text-decoration-line: underline;
-
 }
 
 .feature_underlinetext{
 
     display: flex;
-
 }
 
 .feature_link1{
     margin:0px 0px 0px 150px;
-
 }
 
 
 .feature_link2{
     margin:0px 0px 0px 290px;
-
 }
 
 .feature_link3{
     margin:0px 0px 0px 300px;
-
 }
 
 .website{
@@ -155,18 +148,15 @@ padding: 0px 200px;
 display: flex;
 justify-content: space-between;
 align-items: center;
-
 }
 
 .website_text{
 
 color: rgba(39, 39, 39, 0.80);
-
 font-size: 24px;
 font-style: normal;
 font-weight: 600;
 line-height: 35px;
-
 }
 
 .website_image1{
@@ -370,4 +360,18 @@ flex-shrink: 0;
     display: flex;
     justify-content: center;
    
+}
+
+::placeholder { 
+color: rgba(39, 39, 39, 0.60);
+font-size: 16px;
+font-style: normal;
+font-weight: 400;
+line-height: normal;
+  }
+
+.subscribebtn{
+
+    margin-right: 16px;
+    padding-right: 16px;
 }
