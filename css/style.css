@@ -237,7 +237,8 @@ text-align: center;
 
 .latestdeal_image{
 
-    margin: 100px 0px;
+    margin: 100px 10px;
+    align-items: center;
 
 }
 
@@ -265,5 +266,59 @@ text-align: center;
 
 .latestdeal_subscriber{
 
-    
+border-radius: 8px;
+background:url(/Images/Rectangle\ 9.png), lightgray 0px -203.444px / 100% 213.755% no-repeat;
+min-height: 449px;
+}
+
+
+.footer{
+
+background-color: #272727;
+min-height: 449px;
+padding: 128px 0px 0px 0px;
+text-align: center;
+
+
+}
+
+.footer_logo1{
+
+color: #E55473;
+font-family: Lato;
+font-size: 48px;
+font-style: normal;
+font-weight: 800;
+line-height: normal;
+
+
+}
+
+.footer_logo2{
+color: #FFFFFF;
+font-family: Lato;
+font-size: 48px;
+font-style: normal;
+font-weight: 800;
+line-height: normal;}
+
+.footer_desciption{
+
+    color: rgba(255, 255, 255, 0.90);
+    text-align: center;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 30px;
+   padding:0px 646px;
+}
+
+.footer_copyright{
+
+    color: rgba(255, 255, 255, 0.40);
+text-align: center;
+font-size: 16px;
+font-style: normal;
+font-weight: 400;
+line-height: normal;
 }
